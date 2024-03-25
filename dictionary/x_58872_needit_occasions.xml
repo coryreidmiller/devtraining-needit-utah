@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ab10106d93244210a01b3d6efaba1091" label="Occasions" max_length="40" name="x_58872_needit_occasions" type="collection">
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Occasion" max_length="80" name="occasion" type="string"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>
